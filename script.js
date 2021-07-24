@@ -33,15 +33,14 @@ function assignClass() {
 }
 
 function removeSquares () {
-    const divsEmpty = document.querySelectorAll('.square');
-    for (i = 0; i < divsEmpty.length; i++) {
-        divsEmpty[i].parentNode.removeChild(divsEmpty[i]);
+    const empty = document.querySelectorAll('.square');
+    for (i = 0; i < empty.length; i++) {
+        empty[i].parentNode.removeChild(empty[i]);
     }
-    const divsFilled = document.querySelectorAll('.filled');
-    for (i = 0; i < divsFilled.length; i++) {
-        divsFilled[i].parentNode.removeChild(divsFilled[i]);
+    const filled = document.querySelectorAll('.filled');
+    for (i = 0; i < filled.length; i++) {
+        filled[i].parentNode.removeChild(filled[i]);
     }
-   
 }
 
 // clear squares with button and prompt user for new square amount

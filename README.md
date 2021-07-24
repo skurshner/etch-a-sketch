@@ -1,0 +1,1 @@
+Etch-a-sketch game from The Odin Project. Allows you to play with an etch-a-sketch like board in the browser. Also pretty jenky like Rock, Paper, Scissors. I also completed all of the requirements without any outside assistance. This could definitely use more work to refine and style.
