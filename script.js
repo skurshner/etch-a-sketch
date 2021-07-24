@@ -33,6 +33,7 @@ function createSquares (n) {
         grid.appendChild(square);
         // update grid attribute of parent grid columns to number entered by user
         grid.style.gridTemplateColumns = 'repeat('+ n +', 1fr)';
+        // set background color of grid
         grid.style.backgroundColor = 'black';
     }
     // assign class to divs if they are hovered over
