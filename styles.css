@@ -1,6 +1,21 @@
-body {
-    height: 100vh;
-    margin: 0;
+.header {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+    margin: 20px;
+    
+}
+
+button {
+    width: 200px;
+    height: 44px;
+    align-self: center;
+    font-size: 16px;
 }
 
 #container {
@@ -14,10 +29,10 @@ body {
     padding: 1px;
 }
 
-.square {
+div.square {
     background-color: #ffffff;
 }
 
-.filled {
+div.filled {
     background-color: black;
 }
