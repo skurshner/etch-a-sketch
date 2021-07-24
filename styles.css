@@ -22,7 +22,6 @@ button {
     width: 960px;
     height: 960px;
     margin: 20px auto;
-    background-color: #010;
     display: grid;
     grid-auto-flow: row;
     grid-gap: 1px;
